@@ -1,19 +1,20 @@
-## ✅ TrafficSignRecognition with ResNet and yolov5
+# 🚦 Traffic Sign Recognition with ResNet and YOLOv5
 
-```markdown
-# 🚦 Traffic Sign Recognition with CNN
-
-This project classifies traffic signs from image data using a convolutional neural network (CNN).
+This project performs traffic sign recognition using ResNet for classification and YOLOv5 for object detection.
 
 ## 📌 Features
 
-- Preprocessing of traffic sign images
-- CNN model for classification
-- Evaluation on test data
-- Visualization of training accuracy & confusion matrix
+- Traffic sign detection from images using YOLOv5
+- Image preprocessing and augmentation
+- ResNet-based classification of detected signs
+- Evaluation using confusion matrix and accuracy metrics
+- Optional support for real-time video frame detection
 
 ## 🛠 Technologies
 
 - Python  
-- TensorFlow / Keras  
-- NumPy, Matplotlib  
+- PyTorch  
+- YOLOv5  
+- OpenCV  
+- torchvision  
+- matplotlib, seaborn
